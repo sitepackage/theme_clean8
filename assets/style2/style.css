@@ -1,0 +1,81 @@
+.widgets {
+  background: url('widgets.png') no-repeat;
+}
+.buttons {
+  background: url('buttons.png') no-repeat;
+}
+.banners {
+  background: url('banners.png') no-repeat;
+}
+#outer_wrapper {
+	background:url("header_wrapper_bg.png") repeat-x;
+}
+/* color for main1 */
+a ,
+.cart_status a:hover  ,
+#sidebar1 h2 ,
+#footer .nav a ,
+#cart .summary .total_price ,
+#pagination a:hover ,
+#collection .price ,
+#frontpage .heading span ,
+#sidebar1 .sidebar h2  ,
+#product .price
+{
+	color: #a1c3c2;
+}
+/* color for main2 */
+#header .site_name ,
+#collection .title a:hover  ,
+#header .cart_status a:hover {
+	color:#e9af9e;
+}
+
+
+/* color for button */
+#sidebar1 .nav-left .active a,
+.nav-left li a:hover ,
+#header .nav a:hover ,
+#collection .buy a:hover ,
+#sidebar1 .account fieldset .button ,
+#collection .subcategory a {
+	background-color:#e9af9e;
+	color:#fff;
+}
+#collection .subcategory a:hover ,
+#header .nav a:hover {
+	background-color:#fff;
+	color:#a1c3c2;
+}
+#pagination a:hover {
+  border: 1px solid #e9af9e;
+}
+
+/* color for header  table*/
+.listing th ,
+#cart .items th {
+	background-color:#f7f7f7;
+	color:#000;
+}
+
+/* color for message */
+#main .message_wrapper{
+	border:1px solid #e9af9e;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -border-radius: 10px;
+  border-radius: 10px;
+}
+#main .description {
+	background-color:#fff;
+	border:none;
+}
+
+
+/* color for border bottom */
+#frontpage .column li ,
+#blog li ,
+#cart .items td ,
+.listing td {
+	border-bottom:1px dotted #eee;
+}
