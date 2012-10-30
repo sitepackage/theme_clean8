@@ -744,6 +744,7 @@ body{
 }
 #footer .copyright {
 	width:400px;
+  text-align:right;
 	float:right;
 	font-size: 0.85em;
 }
